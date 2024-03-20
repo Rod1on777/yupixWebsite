@@ -16,35 +16,98 @@ body{
     'footer';
 
     gap:10px;
-    background-color: #21f3a3;
+    background-color: rgb(21, 21, 21);
 }
 
+/* ---------------------- Header ------------------------- */
 #head-main{
     grid-area: header;
 
-    height: 100px;
+   
+
+    float: left;
+    margin-left: 50px;
     width: 90%;
 
-    padding: 20px;
+    padding: 5px;
     margin: 20px auto;
 
     border-radius: 20px;
 
-    background-color: #2196F3;
+    background-color: #686868;
 
-    font-family: 'NotoSans-Italic';
+    font-family: 'OverpassMono-SemiBold';
+    letter-spacing: -1px;
+
+
+}
+
+#menu{
+    float: left;
+    background-color: aliceblue;
+}
+
+#head-glav, #head-rules, #head-servers, #head-help{
+    margin: 10px 10px;
+    font-size: 25px;
+    width: 200px;
+    float: left;
+    
+    background-color: blue;
+}
+
+#head-glav p, #head-rules p, #head-servers p, #head-help p{
+    display: block;
+    margin: 1px;
+    float:left;
+
+    background-color: aliceblue;
+}
+
+#head-glav div, #head-rules div, #head-servers div, #head-help div{
+    margin: 10px;
+
+    width: 30px;
+    height: 30px;
+
+    float:left;
+    
+    background-color: beige;
 }
 
 #head-pic{
-    width: 100px;
+    width: 50px;
     height: 100%;
 
     margin: auto;
     float: left;
 
     background: url("images/main/7y4u7b0ehiWTrotkrmWAg9QPdLGER976.png");
+    background-color: black;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;
     background-size: cover;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------- Fonts ------------------------- */
+
+@font-face {
+    font-family: 'OverpassMono-SemiBold';
+    src: url('fonts/OverpassMono-SemiBold.ttf') format('truetype');
+    font-style: normal; 
+    font-weight: normal; 
 }
