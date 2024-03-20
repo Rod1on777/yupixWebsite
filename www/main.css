@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(21, 21, 21);
+}
+
+.page-wrapper {
+    display: grid;
+    grid-template-areas:
+
+    'header'
+    'menu'
+    'footer';
+
+    gap:10px;
+    background-color: #21f3a3;
+}
+
+#head-main{
+    grid-area: header;
+
+    height: 100px;
+    width: 90%;
+
+    padding: 20px;
+    margin: 20px auto;
+
+    border-radius: 20px;
+
+    background-color: #2196F3;
+
+    font-family: 'NotoSans-Italic';
+}
+
+#head-pic{
+    width: 100px;
+    height: 100%;
+
+    margin: auto;
+    float: left;
+
+    background: url("images/main/7y4u7b0ehiWTrotkrmWAg9QPdLGER976.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Iceland-Regular';
+    src: url('fonts/Iceland-Regular.ttf') format('truetype');
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: 'NotoSans-Italic';
+    src: url('fonts/NotoSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: 'NotoSans-Italic';
+    src: url('fonts/NotoSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-style: normal; 
+    font-weight: normal; 
+}
